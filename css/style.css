@@ -563,6 +563,11 @@ ol {
   letter-spacing: 0.04em;
   padding-left: 16px;
   background-color: transparent;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
 }
 .subscribe-input::placeholder {
   color: #ffffff;
