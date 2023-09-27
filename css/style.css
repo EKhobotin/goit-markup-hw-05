@@ -710,7 +710,7 @@ ol {
   height: 120px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1, 17; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -747,6 +747,12 @@ ol {
   fill: transparent;
 }
 
-.checbox:checked + .modal-label.checkbox-icon {
+.checkbox:checked + .modal-label .label-span .checkbox-icon {
   background-color: var(--checkbox-color);
+  border: none;
+  fill: var(--logo-color-footer);
+}
+
+.privacy-policy {
+  color: var(--logo-color);
 }
