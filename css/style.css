@@ -580,6 +580,7 @@ ol {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border: none;
 }
 .subscribe-btn-icon {
   margin-left: 16px;
