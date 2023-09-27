@@ -249,9 +249,8 @@ ol {
 }
 .title-doing {
   margin-bottom: 72px;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--text-color);
   text-align: center;
-  /* Header 2 */
   font-size: 36px;
   font-weight: 700;
   line-height: 1, 1; /* 111.111% */
@@ -285,9 +284,8 @@ ol {
 }
 .title-team {
   margin-bottom: 72px;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--text-color);
   text-align: center;
-  /* Header 2 */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1; /* 111.111% */
