@@ -21,7 +21,7 @@ h2,
 h3,
 h4,
 p {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 img {
@@ -32,12 +32,13 @@ img {
 ul,
 ol {
   list-style: none;
-  display: flex;
+  /* display: flex; */
   margin: 0;
   padding: 0;
 }
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 .container {
   width: 1158px;
@@ -90,6 +91,7 @@ ol {
   color: var(--logo-color-header);
 }
 .menu.list {
+  display: flex;
   gap: 40px;
 }
 
@@ -144,6 +146,7 @@ ol {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-list {
+  display: flex;
   gap: 40px;
 }
 /* ==================HERO PAGE======================= */
@@ -168,6 +171,7 @@ ol {
 }
 
 .text-hero {
+  margin: 0 auto;
   text-align: center;
   color: #ffffff;
   font-family: Roboto;
@@ -176,7 +180,6 @@ ol {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   max-width: 496px;
-  padding-top: 188px;
 }
 .button {
   display: block;
@@ -191,7 +194,7 @@ ol {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  margin: 48px auto;
+  margin: 48px auto 0;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -207,6 +210,7 @@ ol {
 }
 
 .feature-list {
+  display: flex;
   gap: 24px;
 }
 
@@ -260,6 +264,7 @@ ol {
   text-transform: capitalize;
 }
 .list-doing {
+  display: flex;
   gap: 24px;
 }
 .list-item-doing {
@@ -299,6 +304,7 @@ ol {
 }
 
 .list-team {
+  display: flex;
   gap: 24px;
 }
 .list-item-team {
@@ -320,6 +326,7 @@ ol {
   text-align: center;
 }
 .social-list {
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -399,6 +406,7 @@ ol {
   flex-direction: column;
 }
 .filter-list {
+  display: flex;
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
@@ -430,6 +438,7 @@ ol {
 }
 
 .portfolio-list {
+  display: flex;
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
@@ -581,9 +590,6 @@ ol {
   color: #ffffff;
 }
 
-::placeholder {
-  color: #ffffff;
-}
 .subscribe-input::placeholder {
   color: #ffffff;
 }
@@ -711,6 +717,11 @@ ol {
   fill: #4d5ae5;
 }
 
+::placeholder {
+  color: #2e2f4266;
+  font-size: 12px;
+}
+
 .tarea-cont {
   margin-bottom: 16px;
 }
@@ -749,6 +760,7 @@ ol {
   align-items: center;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
